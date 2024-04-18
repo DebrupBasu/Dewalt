@@ -8,7 +8,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import json
 
 # Load the JSON file containing product information
-with open('C:\\Users\\Debrup Basu\\Downloads\\dewalt.json') as f:
+with open('/dewalt.json') as f:
     data = json.load(f)
 
 # Load the pre-trained ResNet50 model
