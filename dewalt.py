@@ -60,6 +60,6 @@ if uploaded_file is not None:
     st.markdown(f"**Technical Specifications:**")
     for feature in most_similar_product['Features']:
        st.markdown(f"- {feature}")
-    if st.button('Buy Now'):
-       import webbrowser
-       webbrowser.open_new_tab(most_similar_product['ProductLink'])
+    if st.button('[Buy Now](https://www.homedepot.com/cart)'):
+    pass  # Add your desired action here, if any
+
