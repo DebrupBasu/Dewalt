@@ -60,5 +60,6 @@ if uploaded_file is not None:
     st.markdown(f"**Technical Specifications:**")
     for feature in most_similar_product['Features']:
        st.markdown(f"- {feature}")
-       st.markdown(f'[Click here to buy the product]({'https://www.homedepot.com/cart'})')
+    st.markdown('[Click here to buy the product](https://www.homedepot.com/cart)')
+
 
