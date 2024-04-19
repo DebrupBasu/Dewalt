@@ -14,7 +14,7 @@ with open('dewalt.json') as f:
 # Load the pre-trained ResNet50 model
 model = ResNet50(weights='imagenet', include_top=False, pooling='avg')
 
-st.title('Dewalt Power Tool Image Recognition')
+st.title('Power Tool Image Recognition App')
 
 # Upload image
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
@@ -51,7 +51,15 @@ if uploaded_file is not None:
              except UnidentifiedImageError:
                    pass
     # Display the most similar product information
-    st.write('Most Similar Product:')
-    st.write('Name:', most_similar_product["Name"])
-    st.write('Features:', most_similar_product["Features"])
-    st.write('Applications:', most_similar_product["Applications"])
+    st.markdown('Most Similar Product:')
+    st.markdown(f"**Name:** {most_similar_product['Name']}")
+    st.markdown(f"**Applications:**")
+    for app in most_similar_product['Applications']:
+       st.markdown(f"- {app}")
+
+    st.markdown(f"**Technical Specifications:**")
+    for feature in most_similar_product['Features']:
+       st.markdown(f"- {feature}")
+    if st.button('Buy Now'):
+       import webbrowser
+       webbrowser.open_new_tab(most_similar_product['ProductLink'])
