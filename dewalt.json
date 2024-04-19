@@ -108,13 +108,13 @@
                 ]
             },
             {
-                "Name": "DCD800B 20V MAX XR Brushless Cordless 1/2 in. Drill/Driver",
+                "Name": "Dewalt Consumer Power Drill DCD800B 20V MAX XR",
                 "Features": [
-                    "Brushless motor for increased efficiency and runtime",
-                    "1/2 in. drill/driver for versatile drilling and fastening applications",
+                     "LED light to illuminate work area",
+                    "Variable speed trigger for precise control",
                     "Compact and lightweight design for reduced user fatigue",
-                    "LED light to illuminate work area",
-                    "Variable speed trigger for precise control"
+                    "1/2 in. drill/driver for versatile drilling and fastening applications"
+                                    
                 ],
                 "Applications": [
                     "General drilling and fastening tasks",
@@ -122,13 +122,14 @@
                     "DIY projects and home repairs"
                 ],
                 "ImagePaths": [
-                    "DCD800B Drill/DCD800B Drill.jpg",
-                    "DCD800B Drill/DCD800B_1.jpg",
-                    "DCD800B Drill/DCD800B_2.jpg",
-                    "DCD800B Drill/DCD800B_3.jpg",
-                    "DCD800B Drill/DCD800B_4.jpg",
-                    "DCD800B Drill/DCD800B_5.jpg"
-                ]
+                    "C:\\Users\\Debrup Basu\\Downloads\\DCD800B Drill\\DCD800B Drill.jpg",
+                    "C:\\Users\\Debrup Basu\\Downloads\\DCD800B Drill\\DCD800B_1.jpg",
+                    "C:\\Users\\Debrup Basu\\Downloads\\DCD800B Drill\\DCD800B_2.jpg",
+                    "C:\\Users\\Debrup Basu\\Downloads\\DCD800B Drill\\DCD800B_3.jpg",
+                    "C:\\Users\\Debrup Basu\\Downloads\\DCD800B Drill\\DCD800B_4.jpg",
+                    "C:\\Users\\Debrup Basu\\Downloads\\DCD800B Drill\\DCD800B_5.jpg"
+                ],
+                "ProductLink": "https://www.dewalt.com/product/dcd800b/20v-max-xr-brushless-cordless-12-drilldriver-tool-only"
             },
             {
                 "Name": "DCD999B 20V MAX 1/2 in. Brushless Cordless Hammer Drill/Driver with FLEXVOLT ADVANTAGE™",
